@@ -1,0 +1,10 @@
+/* vert-centering doesn't work on ie8, replace with some padding */
+
+.vert-center,
+.shirt-story .content,
+.home-slider .carousel-content{
+	top: auto !important;
+	left: auto !important;
+	padding: 3em 0 !important;
+	margin-top: 50px !important;
+}
